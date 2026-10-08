@@ -1,0 +1,618 @@
+---
+import Productitem from "../components/Productitem.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop.co</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <div id="container">
+    <nav>
+      <section id="title">
+        <div>
+          Shop.co
+        </div>
+      </section>
+      <section id="links">
+        <ul>
+          <li><a href="">Shop</a></li>
+          <li><a href="">On Sale</a></li>
+          <li><a href="">New Arrivals</a></li>
+          <li><a href="">Brands</a></li>
+        </ul>
+      </section>
+      <section id="search">
+        <input  placeholder="Search for products" type="search">
+      </section>
+      <section id="icon">
+        <ul>
+          <li><a href=""><img  src="/public/images/online-shopping.png" alt="cart"/></a></li>
+          <li><a href=""><img src="/public/images/user.png" alt="user"/></a></li>
+        </ul>
+      </section>
+    </nav>
+    
+    <header>
+      <section id="header-left">
+        <section id="header-title">
+          <h1> find clothes <br> that matches <br> your style </h1>
+          <small>
+            Browse through our diverse range of meticulously crafted garments, designed <br> to bring out your individuality and cater to your sense of style.
+          </small>
+          <div>
+            <button id="header-title-btn">Shop Now</button>
+          </div>
+          <section id="header-stats">
+            <ul>
+              <li>
+                <strong>200+</strong>
+                <small>International Brands</small>
+              </li>
+              <li>
+                <strong>2,000+</strong>
+                <small>High-Quality Products</small>
+              </li>
+              <li>
+                <strong>30,000+</strong>
+                <small>Happy Customers</small>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section id="header-img">
+          <img src="https://placehold.co/800x800" alt="modeller">
+      </section>
+    </header>
+    <section id="brands">
+      <img src="https://placehold.co/150x50" alt="cat">
+      <img src="https://placehold.co/150x50" alt="cat">
+      <img src="https://placehold.co/150x50" alt="cat">
+      <img src="https://placehold.co/150x50" alt="cat">
+      <img src="https://placehold.co/150x50" alt="cat">
+    </section>
+    <section id="new-arrival">
+      <h2>new arrivals</h2>
+      <section id="new-arrival-lists">
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+      </section>
+      <button id="new-arrival-btn">View All</button>
+    </section>
+    <hr id="hr"/>
+    <section id="new-arrival">
+      <h2>top selling</h2>
+      <section id="new-arrival-lists">
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+        <Productitem name="Product Name" price="$120" star="4.5" img="https://placehold.co/200x200"/>
+      </section>
+      <button id="new-arrival-btn">View All</button>
+    </section>
+    <section id="dress-style">
+      <h2> Browse by dress style</h2>
+      <section id="dress-style-list">
+        <div id="Casual" class="dress-style-list-item">
+          <strong>Casual</strong>
+          <!-- <img src="https://placehold.co/400x400" alt=""> -->
+        </div>
+        <div id="Formal" class="dress-style-list-item">
+          <strong>Formal</strong>
+          <!-- <img src="https://placehold.co/400x400" alt=""> -->
+        </div>
+        <div id="Party" class="dress-style-list-item">
+          <strong>Party</strong>
+          <!-- <img src="https://placehold.co/400x400" alt=""> -->
+        </div>
+        <div id="Gym" class="dress-style-list-item">
+          <strong>Gym</strong>
+          <!-- <img src="https://placehold.co/400x400" alt=""> -->
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2 class="header-review">our Happy Customers</h2>
+      <section id="happy-customers">
+        <section class="review">
+          <small>⭐⭐⭐⭐⭐</small>
+          <h3>Sarah M.✅</h3>
+          <q>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</q>
+        </section>
+        <section class="review">
+          <small>⭐⭐⭐⭐⭐</small>
+          <h3>Alex K.✅</h3>
+          <q>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</q>
+        </section>
+        <section class="review">
+          <small>⭐⭐⭐⭐⭐</small>
+          <h3>James L.✅</h3>
+          <q>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</q>
+        </section>
+      </section>
+    </section>
+    <section id="newsletter">
+      <strong>stay upto date about <br> our latest offers</strong>
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button>Subsrcibe to Newsletter</button>
+      </form>
+    </section>
+    <footer>
+      <section id="footer">
+        <section id="footer-left">
+          <strong>shop.co</strong>
+          <small>We have clothes that suits your style and<br>which you're pround to wear. From <br> women to men</small>
+          <section class="circle-img">
+            <img src="/public/images/twitter.png" alt="">
+            <img src="/public/images/facebook.png" alt="">
+            <img src="/public/images/instagram.png" alt="">
+            <img src="/public/images/github.png" alt="">
+          </section>
+        </section>
+    
+        <section id="footer-links">
+          <section>
+            <h3>company</h3>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Works</a></li>
+              <li><a href="">Career</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>help</h3>
+            <ul>
+              <li><a href="">Cusomer Support</a></li>
+              <li><a href="">Delivery Details</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>faq</h3>
+            <ul>
+              <li><a href="">Account</a></li>
+              <li><a href="">Manage Deliveries</a></li>
+              <li><a href="">Orders</a></li>
+              <li><a href="">Payments</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>resources</h3>
+            <ul>
+              <li><a href="">Free eBooks</a></li>
+              <li><a href="">Development Tutorial</a></li>
+              <li><a href="">How to - Blog</a></li>
+              <li><a href="">Youtube Playlist</a></li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <hr id="hr2">
+      <section id="footer-bottom">
+        <small>Shop.co © 2000-2023, All Rights Reserved</small>
+        <ul>
+          <li><img src="https://placehold.co/50x40" alt=""></li>
+          <li><img src="https://placehold.co/50x40" alt=""></li>
+          <li><img src="https://placehold.co/50x40" alt=""></li>
+          <li><img src="https://placehold.co/50x40" alt=""></li>
+          <li><img src="https://placehold.co/50x40" alt=""></li>
+        </ul>
+      </section>
+    </footer>
+  </div>
+
+</body>
+</html>
+
+<!-- style -->
+<style>
+
+  #container{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    padding: 1.5em 3em;
+    gap: 1em;
+
+  }
+
+  #title{
+    font-weight: bold;
+    font-size:  2em;
+    text-transform: uppercase;
+    padding: 0px 12px;
+  }
+
+  #icon ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* ลบจุดของ li ออก */
+  }
+
+  #icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  #links ul{
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+      li{
+        list-style: none;
+          a{
+            text-decoration: none;
+            color:black
+          }
+      }
+  }
+
+  #search{
+    flex-grow: 1;
+  }
+
+  #search input{
+    padding: 0.6em 0.9em ;
+    background-color: rgb(230, 230, 230);
+    border: 0;
+    border-radius: 9999em;
+    width: 100%;
+  }
+
+  header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 4em;
+    gap: 1em;
+    background-color: rgb(242, 240, 241);
+    img{
+      width: auto;
+      height: 400px;
+      object-fit: contain;
+    }
+  }
+
+  #header-img{
+    max-width: 100%;
+    max-height: 350px;
+    margin-right: 5em;
+
+  }
+
+  #header-title{
+    h1{
+      font-size: 3.5em;
+      text-transform: uppercase;
+      margin-bottom: 0.25em;
+      max-width:500px;
+    }
+    small{
+      font-size: 0.8em;
+      color: gray;
+      max-width: 450px;
+      display: block;
+    }
+  }
+
+  #header-title-btn{
+    margin-top: 1.5em;
+    background-color: black;
+    color: white;
+    border-radius: 9999em;
+    text-decoration: none;
+    padding: 1em 4em;
+    display: inline-block;
+  }
+
+  #header-stats{
+    margin-top: 2em;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      gap: 2em;
+      padding: 0%;
+      margin: 0%;
+    }
+    li{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    strong{
+      font-size: 2em;
+    }
+    small{
+      font-size: 0.8em;
+    }
+  }
+
+  #header-left{
+    /* padding: 0 em;
+    margin: 0 auto; */
+  }
+
+  #brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em 4em;
+    background-color: black;
+    width: 100%;
+    img{
+      flex: 1 1 150px;
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  #new-arrival{
+    padding: 2em 1em;
+    h2{
+      text-transform: uppercase;
+      text-align-last: center;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+  }
+
+  #new-arrival-lists{
+    display: grid;
+    padding-top: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+
+  }
+
+  #new-arrival-btn{
+    display: block; 
+    width: fit-content;
+    margin: 2em auto;
+    margin-bottom: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-color: rgb(184, 182, 182);
+    border-radius: 9999em;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 1em 4em;
+  }
+
+  #hr{
+    margin-top: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-color: rgb(255, 255, 255);
+  }
+
+  #dress-style-list{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+  }
+
+  #Casual{
+    grid-column: span 3 / span 3;
+    background-image: url(https://placehold.co/400x400);
+  }
+
+  #Formal{
+    grid-column: span 4 / span 4;
+    background-image: url(https://placehold.co/400x400);
+  }
+
+  #Party{
+    grid-column: span 4 / span 4;
+    background-image: url(https://placehold.co/400x400);
+  }
+
+  #Gym{
+    grid-column: span 3 / span 3;
+    background-image: url(https://placehold.co/400x400);
+  }
+
+.dress-style-list-item{
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 1em;
+  margin: 0.4em;
+  strong{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1.5em;
+  }
+}
+  
+  #dress-style{
+    padding: 2em 1em;
+    background-color: rgb(240, 240, 240);
+    margin: 0 3em;
+    border-radius: 2em;
+    padding-top: 1px;
+    h2{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2.5em;
+    }
+  }
+
+  #happy-customers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .review{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 1em;
+    padding: 1.5em;
+    q{
+      color: rgb(102, 102, 102);
+    }
+  }
+
+  .header-review{
+    text-transform: uppercase;
+    padding-left: 1em;
+    font-size: 2.5em;
+  }
+
+  #newsletter{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 3em;
+    display: flex;
+    strong{
+      flex-grow: 1;
+      font-size: 2em;
+      text-transform: uppercase;
+
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      input{
+        border-radius: 9999em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+      }
+      button{
+        border-radius: 9999em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+      }
+    }
+  }
+
+  .circle-img {
+    display: flex;
+    gap: 1em;
+    img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: contain;
+      border: 1px solid gray;  
+    }
+  }
+
+  #footer {
+    display: flex;
+    gap: 7em;
+
+  }
+
+  #footer-left{
+    display: flex ;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 3em;
+    
+    strong{
+      text-transform: uppercase;
+      font-size: 2.5em;
+    }
+    small{
+      font-size: 0.8em;
+      color: rgb(114, 114, 114);
+      white-space: nowrap;
+    }
+    
+  }
+
+  #footer-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 0.8em;
+    white-space: nowrap;
+    gap: 6em;
+    h3{
+      text-transform: uppercase;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    li{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color:rgb(114, 114, 114) ;
+      }
+    }
+  }
+
+  #hr2{
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-color: rgb(255, 255, 255);
+  }
+
+  #footer-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin-top: 1em;
+    justify-content: space-between;
+    small{
+      font-size: 0.9em;
+      padding-left: 2.5em;
+      padding-top: 1em;
+      padding-bottom: 7em;
+      color:rgb(114, 114, 114) ;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 0em;
+      li{
+        list-style: none;
+        img{
+          border-radius: 0.2em;
+          margin-right: 1em;
+        }
+      }
+    }
+  }
+</style>
